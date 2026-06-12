@@ -1,0 +1,19 @@
+<svg viewBox="0 0 780 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CALIFAI">
+  <!-- sol izquierda -->
+  <g fill="#F6C61C" stroke="#D9711A" stroke-width="3" stroke-linejoin="round">
+    <rect x="158" y="55" width="13" height="92" rx="6.5" transform="rotate(-80 164 158)"/>
+    <rect x="158" y="55" width="13" height="92" rx="6.5" transform="rotate(-60 164 158)"/>
+    <rect x="158" y="55" width="13" height="92" rx="6.5" transform="rotate(-40 164 158)"/>
+    <rect x="158" y="55" width="13" height="92" rx="6.5" transform="rotate(-20 164 158)"/>
+    <rect x="158" y="55" width="13" height="92" rx="6.5" transform="rotate(0 164 158)"/>
+    <rect x="158" y="55" width="13" height="92" rx="6.5" transform="rotate(20 164 158)"/>
+    <rect x="158" y="55" width="13" height="92" rx="6.5" transform="rotate(40 164 158)"/>
+    <rect x="158" y="55" width="13" height="92" rx="6.5" transform="rotate(60 164 158)"/>
+    <rect x="158" y="55" width="13" height="92" rx="6.5" transform="rotate(80 164 158)"/>
+  </g>
+  <rect x="84" y="150" width="160" height="17" rx="8.5" fill="#F6C61C" stroke="#D9711A" stroke-width="3"/>
+  <!-- wordmark -->
+  <text x="298" y="150" font-family="Georgia,'Times New Roman',serif" font-size="76" font-weight="700" letter-spacing="2"><tspan fill="#1B2A8E">CALIF</tspan><tspan fill="#E07B1E">AI</tspan></text>
+  <!-- tagline -->
+  <text x="300" y="200" font-family="'Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="600" letter-spacing="3" fill="#3A4AB0">Grupo · Economía · IA · Sostenibilidad</text>
+</svg>
