@@ -48,6 +48,7 @@
 .brand-avanta { --accent:#C9912B; --accent-strong:#a9781f; --accent-soft:rgba(201,145,43,.12); --brand-grad:linear-gradient(135deg,#22338f,#141f63); }
 .brand-seneca { --accent:#2647C4; --accent-strong:#1a328f; --accent-soft:rgba(38,71,196,.12); --brand-grad:linear-gradient(135deg,#274ad0,#16308f); }
 .brand-axioma { --accent:#7A5AF8; --accent-strong:#5a36e0; --accent-soft:rgba(122,90,248,.14); --brand-grad:linear-gradient(135deg,#7c5cff,#5a36e0); }
+.brand-olea   { --accent:#1F9D63; --accent-strong:#15784c; --accent-soft:rgba(31,157,99,.13); --brand-grad:linear-gradient(135deg,#2fa46f,#15784c); }
 
 /* ---------- Reset / base ---------- */
 *, *::before, *::after { box-sizing: border-box; }
@@ -163,7 +164,7 @@ p { margin: 0 0 1rem; }
 .icon-badge svg { width: 28px; height: 28px; }
 
 /* ---------- Marcas del grupo (tarjetas-enlace) ---------- */
-.brands { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.6rem; }
+.brands { display: grid; grid-template-columns: repeat(auto-fit, minmax(248px, 1fr)); gap: 1.6rem; }
 .brand-card {
   --c: var(--navy);
   position: relative; display: flex; flex-direction: column;
@@ -178,6 +179,7 @@ p { margin: 0 0 1rem; }
 .brand-card[data-c="avanta"] { --c: #C9912B; }
 .brand-card[data-c="seneca"] { --c: #2647C4; }
 .brand-card[data-c="axioma"] { --c: #7A5AF8; }
+.brand-card[data-c="olea"] { --c: #1F9D63; }
 .brand-card__mark { width: 64px; height: 64px; border-radius: 18px; box-shadow: var(--shadow-sm); margin-bottom: 1.3rem; }
 .brand-card__name { font-size: 1.5rem; color: var(--navy); margin-bottom: .15rem; }
 .brand-card__name b { color: var(--c); }
